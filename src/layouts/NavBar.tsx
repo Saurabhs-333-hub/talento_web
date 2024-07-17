@@ -7,6 +7,11 @@ const NavBar = () => {
     return (
         <>
             <div className="flex justify-between items-center h-16">
+                <div className='p-3'>
+                    <h1 className='text-2xl'>
+                        <Link href={'/'}>TALENTO</Link>
+                    </h1>
+                </div>
                 <div className="flex items-center p-3">
                     <Button variant={'link'} asChild>
                         <Link href={'/'}>Feed</Link>
