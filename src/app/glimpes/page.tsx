@@ -1,9 +1,11 @@
-import Image from "next/image";
+import React from 'react'
 
-export default function Home() {
+const Glimpes = () => {
   return (
     <main className=" max-h-screen w-screen flex justify-center items-center">
-      <div>Talento</div>
+      <div>Glimpes</div>
     </main>
-  );
+  )
 }
+
+export default Glimpes
